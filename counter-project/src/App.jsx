@@ -11,7 +11,7 @@ function App() {
       {days} {count}
      </div>
      <div>
-      <button onClick={()=>{setCount(count + 1)}}>Click to increment</button>
+      <button onClick={()=>{setCount(count + 1)}} ckassName ="inc-btn">Click to increment</button>
      </div>
     </>
   )
